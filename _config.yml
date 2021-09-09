@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Good Vibes
+url: "https://astoyanow.github.io/good-vibes-webpage/"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -36,15 +36,6 @@ permalink: pretty
 defaults:
   - scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      _options:
-        content:
-          width: 1500
-          height: 2500
-  - scope:
-      path: ""
       type: "staff_members"
     values:
       _options:
@@ -59,10 +50,6 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  - scope:
-      path: "contact.html"
-    values:
-      full_width: true
 
 jekyll-archives:
   enabled:
@@ -83,17 +70,6 @@ exclude:
 
 # -----------
 # CloudCannon
-
-_select_data:
-  social_icons:
-    - Facebook
-    - Instagram
-    - LinkedIn
-    - Pinterest
-    - Tumblr
-    - Twitter
-    - YouTube
-    - RSS
 
 _comments:
   map: Update the map location and display settings.
