@@ -24,6 +24,27 @@ img {
 	width: 50%;
 }
 
+.apple{
+	width: 6%;
+	height: 6%;
+	margin-left: 4em;
+	margin-right: 3em;
+}
+
+.google{
+	width: 5%;
+	height: 5%;
+	margin-left: 3em;
+	margin-right: 4em;
+}
+
+.discoTray{
+	width: 8%;
+	position: absolute;
+	top: 1.75em;
+	left: 2em;
+}
+
 h1 strong, h2 strong {
 	font-weight: 700;
 }

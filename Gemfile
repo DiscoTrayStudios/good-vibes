@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4.0'
   gem 'tzinfo-data'
   gem 'webrick'
+  gem 'wdm', '>= 0.1.0'
 end
