@@ -49,6 +49,10 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
+  - scope:
+      path: "privacy.html"
+    values:
+      layout: "privacy.html"
 
 jekyll-archives:
   enabled:
