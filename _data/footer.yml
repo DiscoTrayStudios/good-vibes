@@ -1,7 +1,7 @@
 - links:
   - name: Github
     link: https://github.com/DiscoTrayStudios
-    new_window: false
+    new_window: true
   - name: Disco Tray Studios
     link: https://discotraystudios.github.io/
-    new_window: false
+    new_window: true

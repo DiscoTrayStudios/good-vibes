@@ -1,0 +1,15 @@
+.page-header{
+    height: 5em;
+    margin-bottom: 1em
+}
+
+.column{
+    display: flex;
+    justify-content: space-between;
+}
+
+#icons{
+    flex: 33.33%;
+    padding: 5px;
+    
+}

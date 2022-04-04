@@ -4,17 +4,26 @@ description: Track your moods and get some inspiration to start your day
 ---
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa"/>
+<link rel="stylesheet" href="css/style.css"/>
 <section class="hero">
-	<img src="{{ site.baseurl }}/images/DiscoTray_logo_bling-2.png" alt="Screenshot" class="discoTray" />
+	<div class = "page-header">
+		<img src="{{ site.baseurl }}/images/DiscoTray_logo_bling-2.png" alt="Screenshot" class="discoTray" />
+	</div>
 	<div class="text-container">
 		<h1 class="editable">Spreading <span style = "font-family: Pacifico">Good Vibes</span> your way</h1>
 		<p class="subtext editable">Track your moods and get inspired.</p>
 		<div>
 			<img src="{{ site.baseurl }}/images/chartPage.png" class = "screenshot editable" />
 		</div>
-		<div>
-			<img src="{{ site.baseurl }}/images/SVG/apple-badge.svg" alt="Screenshot" class="apple" />
-			<img src="{{ site.baseurl }}/images/google-play-badge.png" alt="Screenshot" class="google" />
+		<div class = "column">
+			<div id = "icons">
+				<a href = "https://apps.apple.com/us/app/good-vibes-mood-tracker/id1587237472" target="_blank">
+					<img src="{{ site.baseurl }}/images/SVG/apple-badge.svg" alt="Screenshot" class="apple" />
+				</a>
+				<a href = "https://play.google.com/store/apps/details?id=io.github.discotraystudios.good_vibes" target="_blank">
+					<img src="{{ site.baseurl }}/images/google-play-badge.png" alt="Screenshot" class="google" />
+				</a>
+			</div>
 		</div>
 	</div>
 </section>
